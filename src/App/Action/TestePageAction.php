@@ -26,7 +26,7 @@ class TestePageAction
     {
         $data = [];
 
-        $data['message'] = 'Minha primeira aplicação';
+        $data['message'] = 'Minha primeira aplicação ';
 
 
         return new HtmlResponse($this->template->render('app::teste', $data));
